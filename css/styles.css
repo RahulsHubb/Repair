@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Banner Backgrounds */
+.web-bg{
+    background-image: linear-gradient(to right, rgb(103 158 226 / 92%), rgb(170 68 222));
+}
+.heading{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.3rem;
+}
+.bg{
+    background-color: #8388e2;
+    display: inline-block;
+}
+.btn-bg{
+    background-color: #fff;
+}
+/* Offer */
+.no-border{
+    border: none;
+}
+.fas{
+    font-weight: 200;
+}
+/* Discount */
+#discount{
+    background-image: url("../images/user.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.inputs{
+    background: rgb(169 71 223 / 14%);
+    border-radius: 0;
+    color: #fff;
+}
+.inputs::placeholder{
+    color: rgb(212, 203, 203);
+}
+.inputs:focus{
+    background-color: rgb(169 71 223 / 14%);
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+}
+.inputs:focus::placeholder {
+    color: transparent;
+  }
+.icon{
+    color: blueviolet;
+}
+.QNA-heading{
+    position: relative;
+    cursor: pointer;
+    padding: 12px 25px;
+    background-color: #f9f9ff;
+}
+.QNA-heading .card-header{
+    padding: 0;
+}
+.QNA-heading .btn:hover{
+    background-image: linear-gradient(to right, rgb(103 158 226 / 92%), rgb(170 68 222));
+    color: cornsilk;
+}
+.webDesign{
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid blueviolet;
+}
+
+/* Cirlcle CSS */
+
+.progress--circle {
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.progress--circle:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.progress--circle:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #63B8FF;
+}
+
+.progress__number {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  line-height: 1;
+  margin-top: -0.75rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.progress--bar.progress--0:after {
+  width: 0%;
+}
+
+
+.progress--bar.progress--5:after {
+  width: 5%;
+}
+
+.progress--bar.progress--10:after {
+  width: 10%;
+}
+
+
+.progress--bar.progress--15:after {
+  width: 15%;
+}
+
+
+.progress--bar.progress--20:after {
+  width: 20%;
+}
+
+.progress--bar.progress--25:after {
+  width: 25%;
+}
+
+.progress--bar.progress--30:after {
+  width: 30%;
+}
+
+
+.progress--bar.progress--35:after {
+  width: 35%;
+}
+
+.progress--bar.progress--40:after {
+  width: 40%;
+}
+
+.progress--bar.progress--45:after {
+  width: 45%;
+}
+
+
+
+.progress--bar.progress--50:after {
+  width: 50%;
+}
+
+.progress--circle.progress--50:after {
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(50%, #63B8FF), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, right top, left top, color-stop(50%, #63B8FF), color-stop(50%, #ddd), to(#ddd));
+  background-image: linear-gradient(-90deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--55:after {
+  width: 55%;
+}
+
+.progress--circle.progress--55:after {
+  background-image: linear-gradient(-72deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--60:after {
+  width: 60%;
+}
+
+.progress--circle.progress--60:after {
+  background-image: linear-gradient(-54deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--65:after {
+  width: 65%;
+}
+
+.progress--circle.progress--65:after {
+  background-image: linear-gradient(-36deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--70:after {
+  width: 70%;
+}
+
+.progress--circle.progress--70:after {
+  background-image: linear-gradient(-18deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--75:after {
+  width: 75%;
+}
+
+.progress--circle.progress--75:after {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #63B8FF), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, right top, left top, color-stop(50%, #63B8FF), color-stop(50%, #ddd), to(#ddd));
+  background-image: linear-gradient(0deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--80:after {
+  width: 80%;
+}
+
+.progress--circle.progress--80:after {
+  background-image: linear-gradient(18deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--85:after {
+  width: 85%;
+}
+
+.progress--circle.progress--85:after {
+  background-image: linear-gradient(36deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--90:after {
+  width: 90%;
+}
+
+.progress--circle.progress--90:after {
+  background-image: linear-gradient(54deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--95:after {
+  width: 95%;
+}
+
+.progress--circle.progress--95:after {
+  background-image: linear-gradient(72deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+
+.progress--bar.progress--100:after {
+  width: 100%;
+}
+
+.progress--circle.progress--100:after {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #63B8FF), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, right top, left top, color-stop(50%, #63B8FF), color-stop(50%, #ddd), to(#ddd));
+  background-image: linear-gradient(90deg, #63B8FF 50%, transparent 50%, transparent), linear-gradient(270deg, #63B8FF 50%, #ddd 50%, #ddd);
+}
+/*# sourceMappingURL=style.css.map */
+.row{
+  text-align: -webkit-center;
+}
